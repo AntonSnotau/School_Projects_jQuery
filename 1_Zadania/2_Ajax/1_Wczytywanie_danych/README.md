@@ -1,7 +1,7 @@
-# jQuery &ndash; zadanie
 # Wczytywanie danych
 
-## Zadanie 1
+## Zadanie omawiane z wykładowcą
+
 Zapoznaj się z plikami HTML i JavaScript. Zadanie polega na wczytaniu danych z adresu: http://swapi.co/api/films/.
 
 Przydatne informacje:
