@@ -1,0 +1,56 @@
+body {
+    background-color: #FFC300;
+    font-family: sans-serif;
+    padding: 100px;
+    margin: 0;
+}
+
+h1 {
+    color: #FFC300;
+    margin-bottom: 50px;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+label {
+    display: block;
+    margin: 15px 0;
+    font-size: 12px;
+}
+
+time {
+    opacity: .5;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main, .aside {
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+.main {
+    width: 55vw;
+    box-sizing: border-box;
+}
+
+.aside {
+    width: 20vw;
+    margin-left: 5%;
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    height: 300px;
+}
+
+.event {
+    margin-bottom: 50px;
+}

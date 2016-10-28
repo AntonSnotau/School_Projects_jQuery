@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: #E74C3C;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    margin: 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h1, p {
+    color: #171717;
+}
+
+h1:before {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 1px;
+    border-top: 1px solid black;
+}
+
+.container {
+    padding-top: 50px;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.column {
+    width: 30%;
+    margin: 0 1.3%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.column h1 {
+    position: absolute;
+    bottom: 0;
+}
