@@ -43,6 +43,19 @@ Znajdź w pliku **index.html** element o **klasie** ```select```, a następnie n
 
 ## Zadanie 4  (~ 10min - 15min)
 
+Znajdź w pliku **index.html** element o klasie ```histogram```. Następnie napisz dla niego funkcję, wewnątrz której wykonaj:
+* znajdź wszystkie elementy **div** wewnątrz sekcji ```histogram```,
+* za pomocą animacji jQuery trwającej 2sekundy, powiększ:
+    * pierwszy słupek do szerokości 100px,
+    * drugi słupek do szerokości 150px,
+    * trzeci słupek, do szerokości 80px,
+    * czwarty słupek do szerokości 200px.
+
+Kod napisz tak, aby kolejny słupek zaczynał swoją animację dopiero wtedy, gdy poprzedni skończy.
+
+
+## Zadanie 5  (~ 10min - 15min)
+
 Znajdź w pliku **index.html** element o **klasie** ```running-element```. Następnie napisz dla niego funkcję, wewnątrz której wykonaj następujące czynności:
 * ustaw event ```click``` na elemencie ```running-element```,
 * po kliknięciu w element przesuń **div** (znajdujący się wewnątrz niego) o ```20px``` w prawo,

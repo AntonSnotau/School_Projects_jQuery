@@ -40,4 +40,17 @@ Znajdź w pliku **index.html** element o **klasie** ```films```, stwórz odpowie
 
 ## Zadanie 3 (~ 7min - 10min)
 
-Za pomocą funkcji ```each()``` znajdź wszystkie elementy **a**, następnie ustaw ich atrybut **href** na adres [CodersLab](www.coderslab.pl).
+Za pomocą funkcji ```each()``` znajdź wszystkie elementy **a**, następnie
+ustaw ich atrybut **href** na adres [CodersLab](www.coderslab.pl).
+
+## Zadanie 4  (~ 10min - 15min)
+
+Znajdź w pliku **index.html** element o klasie ```tree```, zapoznaj się z kodem HTML tej sekcji. Zapoznaj się też z kodem CSS dla danego elementu.
+* Napisz obsługę zdarzenia, które po kliknięciu w element **li** pokaże jego dzieci,
+* Napisz kod, który zadba o to, żeby elementy drzewa, które mają dzieci wyglądały na klikalne (np. zmień wygląd kursora).
+
+## Zadanie 5 (~ 7min - 10min)
+
+Napisz kod, który zmieni treść ```[No spoilers, please!]``` z poprzedniego zadania, na nazwisko bohatera*. Nie zmieniaj kodu HTML strony, użyj metody ```text()```
+
+ * jeśli nie wiesz o kogo chodzi, lub nie chcesz spoilerów, wpisz cokolwiek. ;-)

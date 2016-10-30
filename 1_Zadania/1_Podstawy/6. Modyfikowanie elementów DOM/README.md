@@ -33,3 +33,9 @@ Znajdź w pliku **index.html** element o **klasie** ```where-i-am```, następnie
 W miejsce trzech kropek wstaw nazwę funkcji, której używasz,   np. ```Jestem tutaj append```.
 
 ![Where I am](images/where-i-am.png)
+
+## Zadanie 3 (~ 10min - 15min)
+
+Zapoznaj się z plikiem **index.html**. Znajdź w nim elementy o **klasie** ```block```, zapisz je do zmiennej.
+
+Napisz funkcję, która po kliknięciu w element o **klasie** ```block```, usunie ten element z kolumny o **klasie** ```left``` i przeniesie go do kolumny o **klasie** ```right```.
