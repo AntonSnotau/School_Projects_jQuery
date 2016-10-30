@@ -1,6 +1,12 @@
 # Wczytywanie danych
 
-## Zadanie omawiane z wykładowcą
+> Odpowiedzi wpisz w odpowiednich plikach, chyba że treść polecenia wskazuje inaczej.
+Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
+Jeśli  polecenie w zadaniach brzmi: "Stwórz nową funkcję, w której wykonasz te czynności" to znaczy, że
+należy stworzyć funkcję. Nawet jeśli treści zadań są mało skomplikowane
+ucz się używać funkcji.
+
+## Zadanie **omawiane** z wykładowcą  (~ 15min - 20min)
 
 Zapoznaj się z plikami HTML i JavaScript. Zadanie polega na wczytaniu danych z adresu: http://swapi.co/api/films/.
 

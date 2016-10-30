@@ -1,4 +1,6 @@
-# NASA API Challenge
+# NASA API Challenge - dodatkowe
+
+> To zadanie jest dla chętnych. Wykonaj je jeśli masz ukończone wcześniejsze zadania. Jeśli na zajęciach brakło czasu możesz je wykonać w domu.
 
 ## Zadanie polega na wykorzystaniu API udostępnionego przez NASA.
 
@@ -15,7 +17,7 @@
 6. Druga sekcja posiada galerię, który wyświetla zdjęcia Marsa.
 Wykorzystaj [API do tego potrzebne](https://api.nasa.gov/api.html#MarsPhotos). Galeria na starcie powinna pokazywać 6 zdjęć. Pod galerią umieść przycisk __Load more__. Po naciśnięciu powinno się pojawić 6 zdjęć więcej.
 
-__Zadania dodatkowe__
+__Dodatkowo__
 
 1. Zmodyfikuj zapytanie o obrazek do pierwszej sekcji tak, aby za każdym razem był pobierany inny obrazek.
 

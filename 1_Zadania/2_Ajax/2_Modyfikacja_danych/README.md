@@ -1,24 +1,44 @@
-
-# jQuery &ndash; zadanie
 # Modyfikacja danych
 
-# Zadanie 1
+> Odpowiedzi wpisz w odpowiednich plikach, chyba że treść polecenia wskazuje inaczej.
+Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
+Jeśli  polecenie w zadaniach brzmi: "Stwórz nową funkcję, w której wykonasz te czynności" to znaczy, że
+należy stworzyć funkcję. Nawet jeśli treści zadań są mało skomplikowane
+ucz się używać funkcji.
+
+
+## Zadania do samodzielnego wykonania
+
+
+# Zadanie 1 (~ 15min - 20min)
+
 Pod adresem http://api.coderslab.pl/movies jest przechowywana baza filmów. Twoim zadaniem jest wczytanie ich do pliku **index.html** za pomocą metody ```ajax()```, konkretnie do elementu **ul** o **klasie** ```repertuar```.
 
 Przydatne wskazówki:
-* zapoznaj się z plikiem **index.html** (gdzie "wstrzyknąć" filmy?),
+* wczytaj bazę filmów i przyjrzyj się w konsoli jak jest skonstruowany json, który dostajesz od serwera
+* zapoznaj się z plikiem **index.html** (gdzie dokładnie "wstrzyknąć" filmy?),
 * zapoznaj się z plikiem JavaScript, wstaw pod odpowiednie zmienne: adres URL oraz element **ul**,
 * wykorzystaj wiedzę (i kod) z poprzedniego zadania i wstaw tytuł filmu oraz opis do elementu **ul**.
 
-# Zadanie 2
-Zadanie polega na tym, aby po wpisaniu tytułu i krótkiego opisu do pól formularza o **klasie** ```add_movie``` filmy dodały się do bazy. W tym celu stwórz odpowiednią funkcję w pliku JavaScript np. o nazwie ```addMovie()```. Wewnątrz niej obsłuż formularz za pomocą odpowiedniego eventu.
+# Zadanie 2 (~ 15min - 20min)
 
-Po uruchomieniu eventu pobierz dane z formularza i za pomocą metody ```ajax()``` wyślij je do bazy, ustaw odpowiednią metodę HTTP.
+Zadanie polega na tym, aby po wpisaniu tytułu i krótkiego opisu do pól formularza o **klasie** ```add_movie``` filmy dodały się do bazy. W tym celu stwórz odpowiednią funkcję w pliku JavaScript np. o nazwie ```addMovie()```. Wewnątrz niej:
+* pozbieraj dane z formularza, ale dopiero po kliknięciu w przycisk. Własność screenings również uwzględnij w tworzonym obiekcie, ale wyślij ją jako pustą tablice ```"screenings":[]```
+* wyślij je za pomocą metody ```ajax()``` do bazy,
 
-Pamiętaj o tym, aby odpowiednio skonstruować dane do wysłania. Przykład znajdziesz poniżej w opisie Api.
+**Jak pozbierać dane?**
+Musisz skonstruować odpowiednio obiekt. Spójrz na opis api poniżej. Bardzo często w pracy dostaniesz tylko
+opis Api i na jego podstawie będziesz musieć obsłużyć jakieś funkcjonalności.
+Nie przerażaj się - w tym opisie znajdziesz wszystko co potrzeba.
+ - co masz wysłać?
+ - pod jaki adres?
+ - jaką metodą HTTP?
+ - jak powinny wyglądać przesyłane dane?
 
 
-# Zadanie 3
+
+# Zadanie 3 (~ 15min - 20min)
+
 Zadanie polega na usunięciu filmu z serwera. W tym celu:
 * stwórz odpowiednią funkcję np. ```removeMovie()```,
 * wróć do funkcji z zadania 1 i zmodyfikuj ją tak, aby przy wczytywaniu filmów dodawała również przycisk ```Usuń``` (pamiętaj o ustawieniu mu odpowiedniej klasy),
@@ -26,9 +46,10 @@ Zadanie polega na usunięciu filmu z serwera. W tym celu:
 * po uruchomieniu eventu wywołaj metodę ```ajax()``` z odpowiednimi ustawieniami do usunięcia określonego filmu,
 * pamiętaj, że musisz odwołać się do konkretnego adresu np. jeżeli chcesz usunąć film o **id=2** wysyłasz żądanie pod adres http://api.coderslab.pl/movies/2.
 
-Skąd wziąć **id** filmu? Każdemu elementowi listy dodaj **id** (do tagu **li**). Pobierzesz je z danych zwróconych przy wczytywaniu filmów. Zmodyfikuj funkcję wczytującą filmy z zadania 1.
+Skąd wziąć **id** filmu? Każdemu elementowi listy dodaj **id** (do tagu **li**). Weźmiesz je z danych zwróconych przy wczytywaniu filmów. Zmodyfikuj funkcję wczytującą filmy z zadania 1.
 
-# Zadanie 4
+# Zadanie 4 (~ 20min - 25min)
+
 Zmodyfikuj film na serwerze. W tym celu:
 1. Stwórz odpowiednią funkcję np. ```updateMovie()```.
 2. Wróć do funkcji z zadania 1 i zmodyfikuj ją tak, aby przy wczytywaniu filmów dodawała również przycisk ```Zmodyfikuj```  (pamiętaj o ustawieniu mu odpowiedniej klasy).
