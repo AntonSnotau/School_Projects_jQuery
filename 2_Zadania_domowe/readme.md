@@ -1,28 +1,15 @@
 # jQuery - zadania domowe
-> Czytaj dokładnie opisy do zadań. Jeśli w zadaniu jest napisane, żeby napisać funkcje
-o konkretnej nazwie to taką nazwę właśnie przyjmij dla swojej funkcji. Jeśli w zadaniu jest
-powiedziane, że należy zwrócić tablicę to zwróć tablicę.
+> Kod wpisz w odpowiednim pliku, zgodnie z poleceniem zadania.
+BARDZO WAŻNE - Wasze zadania są sprawdzanie przy pomocy automatycznego systemu. Żeby odpowiedzi zostały uznane za poprawne strony MUSZĄ wyświetlać te same komunikaty co w treści zadania, a funkcjie i metody MUSZĄposiadać nazwy dokładnie takie same jak podane w zadaniu.
 
 > Zadania z dopiskiem "dodatkowe" są dla chętnych. Znajdziesz je na końcu.
 
 ### Dzień 1 - jQuery
+> Zadania z tego dnia wykonuj w pliku dzienPierwszy.js
 
 #### Zadanie 1
 
 Zajrzyj do pliku ```index.html```. Jest tam sporo elementów. Za pomocą jQuery znajdź wszyskie elementy z klasą ```border``` i nadaj im dowolne obramowanie.
-//test
-function check(sel, prop) {
-    var i, property, $o = $(sel), directions = ["left", "right", "top", "bottom"];
-
-    for (i = 0; i < directions.length; i++) {
-        property = $o.css(prop + '-' + directions[i] + '-style');
-        if (property !== 'solid') {
-             return false;
-        }
-    }
-
-    return true;
-}
 
 #### Zadanie 2
 
@@ -32,13 +19,13 @@ tekst ostatniego dziecka na "Jestem ostatnim dzieckiem".
 
 #### Zadanie 3
 
-Zajrzyj do pliku ```index.html```. Elementy menu masz już zapisane do zmiennej (Jeśli udało Ci się zrobić poprzednie zadanie). Ustaw każdemu z nich kolor tekstu na taki jaki mają ustawiony w atrybucie `data-color`.
+Zajrzyj do pliku ```index.html```. Zapisz o zmiennej elementy menu. Ustaw każdemu z nich kolor tekstu na taki jaki mają ustawiony w atrybucie `data-color`.
 
 
 ### Dzień 2 - jQuery
+> Zadania z tego dnia wykonuj w pliku dzienDrugi.js
 
 #### Zadanie 1 - Prosta animacja
-
 
 Zajrzyj do pliku ```index.html```. Napisz kod, za pomocą którego po najechaniu na którykolwiek
 obrazek uniesie się on lekko do góry (dokładniej mówiąć o 10px). Po zjechaniu powinien wrócić do poprzedniej
@@ -50,18 +37,23 @@ Znajdź w pliku `index.html` element ```userPanel```. Jest w nim pole typu ```in
 
 
 ### Dzień 3
+> Zadania z tego dnia wykonuj w pliku dzienTrzeci.js
 
 #### Zadanie 1
 Dokończ warsztaty jeśli nie skończyłeś na zajęciach. Jeśli masz skończone powtórz materiał.
 
 ### Dzień 4 - Ajax
+> Zadania z tego dnia wykonuj w pliku dzienCzwarty.js
 
-#### Zadanie 1 - Galeria kotów
+#### Zadanie 1 - Galeria zdjęć
 
 Znajdź w pliku `index.html` element ```gallery```. Jest to sekcja, w której znajduje się pusta lista ```ul```.
-Twoim zadaniem jest stworzenie galerii kotów :). Obrazki pobierz z api udostępnionego przez serwis flickr.com.
-Wczytaj plik ```json``` z adresu https://api.flickr.com/services/feeds/photos_public.gne?tags=kitten&format=json
-Jeden obrazek - jeden element ```li```. Niech w domyślnie w galerii wyświetla się 10 obrazków z kotami.
+Twoim zadaniem jest stworzenie galerii z obrazkami :). Obrazki pobierz z api udostępnionego przez serwis jsonplaceholder.
+Wczytaj plik ```json``` z adresu https://jsonplaceholder.typicode.com/photos
+Kolejne obrazeki wstawiaj do kolejnych elementów ```li```. Dodaj do galerii tylko 10 obrazków, nie więcej.
+
+Efekt powinieć wyglądać mniej więcej tak:
+![galeria](images/galeria.png)
 
 -----------------------------------------
 ### Dodatkowe
