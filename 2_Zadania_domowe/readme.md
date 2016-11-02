@@ -56,6 +56,7 @@ Efekt powinieć wyglądać mniej więcej tak:
 ![galeria](images/galeria.png)
 
 -----------------------------------------
+<!--- Czekam az bedzie api
 ### Dodatkowe
 
 #### Zadanie 1 - Lista ToDO
@@ -83,3 +84,4 @@ Zadania powinny również zostać usunięte z serwera. Pokaż użytkownikowi kom
 6. Po dodaniu zadania wartość inputa ma się zerować.
 
 7. Ponad listą ma się znajdować licznik pokazujący, ile zadań zostało nam do zrobienia.
+-->
