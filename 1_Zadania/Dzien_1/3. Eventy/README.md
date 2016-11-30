@@ -32,6 +32,7 @@ Znajdź w pliku **index.html** **sekcję** o **klasie** ```superhero-description
 2. Po kliknięciu w element **dt** spraw, by elementy **dd**:
 * rozwijały się, jeśli są ukryte,
 * zwijały się, jeśli są widoczne.
+* do znalezienia najbliższego rodzeństwa danego elementu użyj funkcji .next()
 
 ### Zadanie 3  (~ 10min - 15min)
 

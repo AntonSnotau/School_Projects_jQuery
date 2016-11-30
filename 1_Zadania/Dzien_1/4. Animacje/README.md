@@ -9,8 +9,7 @@ ucz się używać funkcji.
 ## Zadanie rozwiązywane z wykładowcą
 
 ### Click  (~ 5min - 7min)
-Ustaw event ```click``` na elementach **button**. Po kliknięciu w każdy z nich konsola ma wypisać tekst znajdujący się
-na klikniętym elemencie. Użyj funkcji ```text()```.
+Ustaw event ```click``` na elementach **button**. Po kliknięciu w każdy z nich konsola ma wypisać czy dany element posiada jakąkolwiek klasę. Jeśli tak - powinna wypisać true, jeśli nie - false.
 
 ### Zanikanie  (~ 5min - 7min)
 Po kliknięciu w element o **klasie** ```content``` ustaw animację przygaszania (czyli zmień ```opacity``` na **0.5**) z czasem zanikania dwie sekundy.
