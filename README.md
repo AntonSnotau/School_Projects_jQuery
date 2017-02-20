@@ -1,6 +1,6 @@
 <img alt="Logo" src="http://coderslab.pl/wp-content/themes/coderslab/svg/logo-coderslab.svg" width="400">
 
-# jQuery
+# jQuery & Ajax
 > Kilka ważnych informacji
 
 Przed przystąpieniem do rozwiązywania zadań przeczytaj poniższe wskazówki

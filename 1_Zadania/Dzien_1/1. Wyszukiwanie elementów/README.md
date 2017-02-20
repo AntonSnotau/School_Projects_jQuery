@@ -3,7 +3,7 @@
 > Odpowiedzi wpisz w odpowiednich plikach, chyba że treść polecenia wskazuje inaczej.
 Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 Jeśli  polecenie w zadaniach brzmi: "Stwórz nową funkcję, w której wykonasz te czynności" to znaczy, że
-należy stworzyć funkcję. Nawet jeśli treści zadań są mało skomplikowane
+należy stworzyć funkcję. Nawet jeśli treści zadań są mało skomplikowane,
 ucz się używać funkcji.
 
 
