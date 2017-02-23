@@ -33,8 +33,3 @@ Znajdź w pliku **index.html** **sekcję** o **klasie** ```superhero-description
 * rozwijały się, jeśli są ukryte,
 * zwijały się, jeśli są widoczne.
 * do znalezienia najbliższego rodzeństwa danego elementu użyj funkcji .next()
-
-### Zadanie 3  (~ 10min - 15min)
-
-W pliku **index.html** znajdź formularz o **klasie** ```login```. W pliku **app.js** stwórz funkcję, która będzie reagować na wciśnięcie przycisku ```show-hide-btn```.
-Na początek ustaw event tak, aby po wciśnięciu wypisał w konsoli "działam". Następnie funkcja ma sprawdzać, jakiego typu jest element przechowujący hasło. Jeśli ```password``` &ndash; zmień **type** na ```text```. Jeśli ```text``` &ndash; zmień na ```password```.

@@ -31,18 +31,16 @@ time {
     margin: 0 auto;
     display: flex;
 }
-
-.main, .aside {
+main, aside {
     background-color: #ffffff;
     padding: 25px;
 }
 
-.main {
+main {
     width: 55vw;
     box-sizing: border-box;
 }
-
-.aside {
+aside {
     width: 20vw;
     margin-left: 5%;
     position: fixed;

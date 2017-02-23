@@ -11,7 +11,7 @@ ucz się używać funkcji.
 ### Cytaty (~ 5min - 10min)
 
 Otwórz folder **Cytaty**.
-Za pomocą jQuery ustaw wysokość wszystkich pól z cytatami na równą (taką, jaką wysokość ma najdłuższe z nich) oraz spraw, żeby podpis nie nachodził na tekst (dodając odpowiedni margin-bottom do p). Pamiętaj, że przy zmianie szerokości przeglądarki wszystko musi wyglądać poprawnie – wysokości muszą się odpowiednio zmieniać, natomiast cytaty mogą się zmienić, a więc podpis może zajmować jedną lub dwie linie.
+Za pomocą jQuery ustaw wysokość wszystkich pól z cytatami na równą (taką, jaką wysokość ma najdłuższe z nich) oraz spraw, żeby podpis nie nachodził na tekst. Pamiętaj, że przy zmianie szerokości przeglądarki wszystko musi wyglądać poprawnie – wysokości muszą się odpowiednio zmieniać, natomiast cytaty mogą się zmienić, a więc podpis może zajmować jedną lub dwie linie.
 
 -----------------------------------------------------------------------------------------------------
 

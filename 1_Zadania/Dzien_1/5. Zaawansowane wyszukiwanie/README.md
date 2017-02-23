@@ -29,7 +29,8 @@ Jeśli chcesz zobaczyć przykład na żywo zajrzyj tutaj: http://coderslab.pl/ka
 ### Zadanie 1 (~ 10min - 15min)
 
 Znajdź w pliku **index.html** element o **klasie** ```shopping```, stwórz odpowiednią funkcję. Wykonaj następujące czynności:
-* Po kliknięciu w **button** ```dodaj``` &ndash; ustaw mu **klasę** ```added``` oraz pojedynczemu elementowi zawierającemu produkt zmień obramowanie na zielone.
+* Po kliknięciu w **button** ```Dodaj``` &ndash; ustaw mu **klasę** ```added``` oraz pojedynczemu elementowi zawierającemu produkt zmień obramowanie na zielone.
+* Podmień tekst na przycisku na ```Dodano```.
 * Po ponownym kliknięciu zresetuj ustawienia elementu ```cart-item```.
 
 ### Zadanie 2 (~ 10min - 15min)
@@ -39,18 +40,13 @@ Znajdź w pliku **index.html** element o **klasie** ```films```, stwórz odpowie
 * Po kliknięciu w **button** ```zamknij``` &ndash; zwiń opis filmu (tylko ten, który chcemy zwinąć, a nie wszystkie).
 * Zmodyfikuj kod tak, aby po kliknięciu w ```zamknij``` zwijały się wszystkie opisy.
 
-### Zadanie 3 (~ 7min - 10min)
-
-Za pomocą funkcji ```each()``` znajdź wszystkie elementy **a**, następnie
-ustaw ich atrybut **href** na adres [CodersLab](www.coderslab.pl).
-
-### Zadanie 4  (~ 10min - 15min)
+### Zadanie 3  (~ 10min - 15min)
 
 Znajdź w pliku **index.html** element o klasie ```tree```, zapoznaj się z kodem HTML tej sekcji. Zapoznaj się też z kodem CSS dla danego elementu.
 * Napisz obsługę zdarzenia, które po kliknięciu w element **li** pokaże jego dzieci,
 * Napisz kod, który zadba o to, żeby elementy drzewa, które mają dzieci wyglądały na klikalne (np. zmień wygląd kursora).
 
-### Zadanie 5 (~ 7min - 10min)
+### Zadanie 4 (~ 7min - 10min) - dodatkowe
 
 Napisz kod, który zmieni treść ```[No spoilers, please!]``` z poprzedniego zadania, na nazwisko bohatera*. Nie zmieniaj kodu HTML strony, użyj metody ```text()```
 

@@ -30,13 +30,13 @@ Po kliknięciu wykonaj następujące czynności:
   * niebieski dla osób mających od 16 do 40 lat,
   * brązowy dla osób mających 41 lat i więcej.
 
-### Zadanie 2 (~ 10min - 15min)
+### Zadanie 2 (~ 7min - 10min)
 Znajdź w pliku **index.html** element o **klasie** ```where-i-am```, następnie stwórz odpowiednią funkcję, wewnątrz której stwórz elementy **span** i dodaj je w odpowiednie miejsca według obrazka poniżej.
 W miejsce trzech kropek wstaw nazwę funkcji, której używasz,   np. ```Jestem tutaj append```.
 
 ![Where I am](images/where-i-am.png)
 
-### Zadanie 3 (~ 10min - 15min)
+### Zadanie 3 (~ 7min - 10min)
 
 Zapoznaj się z plikiem **index.html**. Znajdź w nim elementy o **klasie** ```block```, zapisz je do zmiennej.
 

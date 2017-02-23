@@ -8,7 +8,7 @@ ucz się używać funkcji.
 
 ## Zadanie rozwiązywane z wykładowcą
 
-### Ukrywanie  (~ 5min - 7min)
+### Ukrywanie  (~ 5min)
 Stwórz element ```div``` o **klasie** ```panel``` i wstaw go za sekcją ```people```. Dodaj mu za pomocą jQuery dowolny tekst i ukryj ten tekst. Dodaj do niego event, który po najechaniu na ten ```div```  pokaże ukryty tekst.
 
 

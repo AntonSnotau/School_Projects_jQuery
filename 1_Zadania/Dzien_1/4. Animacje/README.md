@@ -9,7 +9,7 @@ ucz się używać funkcji.
 ## Zadanie rozwiązywane z wykładowcą
 
 ### Click  (~ 5min - 7min)
-Ustaw event ```click``` na elementach **button**. Po kliknięciu w każdy z nich konsola ma wypisać czy dany element posiada jakąkolwiek klasę. Jeśli tak - powinna wypisać true, jeśli nie - false.
+Ustaw event ```click``` na elementach **button**. Po kliknięciu w każdy z nich konsola ma wypisać czy dany element posiada klasę ```colorText```. Jeśli tak - powinna wypisać true, jeśli nie - false.
 
 ### Zanikanie  (~ 5min - 7min)
 Po kliknięciu w element o **klasie** ```content``` ustaw animację przygaszania (czyli zmień ```opacity``` na **0.5**) z czasem zanikania dwie sekundy.
@@ -30,17 +30,10 @@ Znajdź w pliku **index.html** element o **klasie** ```buttons```. Stwórz odpow
 
 Znajdź w pliku **index.html** element o **klasie** ```images```, stwórz odpowiednią funkcję i wykonaj w niej następujące czynności:
 * ukryj obrazek drugi,
-* po kliknięciu w pierwszy obrazek ma on zostać ukryty o pokazać się drugi obrazek.
+* po kliknięciu w pierwszy obrazek ma on zostać ukryty a pokazać się drugi obrazek.
 Wykorzystaj funkcje z rodziny ```fade```.
 
-### Zadanie 3  (~ 10min - 15min)
-
-Znajdź w pliku **index.html** element o **klasie** ```select```, a następnie napisz dla niego następującą funkcję:
-* po kliknięciu w strzałkę zostaje rozwinięta lista **ul** o **klasie** ```select-body```,
-* po ponownym kliknięciu lista zwija się z powrotem,
-* spróbuj zmodyfikować zadanie tak, aby strzałka wskazywała w przeciwną stronę, gdy oczekuje na zwinięcie.
-
-### Zadanie 4  (~ 10min - 15min)
+### Zadanie 3 (~ 10min - 15min)
 
 Znajdź w pliku **index.html** element o klasie ```histogram```. Następnie napisz dla niego funkcję, wewnątrz której wykonaj:
 * znajdź wszystkie elementy **div** wewnątrz sekcji ```histogram```,
@@ -51,12 +44,3 @@ Znajdź w pliku **index.html** element o klasie ```histogram```. Następnie napi
     * czwarty słupek do szerokości 200px.
 
 Kod napisz tak, aby kolejny słupek zaczynał swoją animację dopiero wtedy, gdy poprzedni skończy.
-
-
-### Zadanie 5  (~ 10min - 15min)
-
-Znajdź w pliku **index.html** element o **klasie** ```running-element```. Następnie napisz dla niego funkcję, wewnątrz której wykonaj następujące czynności:
-* ustaw event ```click``` na elemencie ```running-element```,
-* po kliknięciu w element przesuń **div** (znajdujący się wewnątrz niego) o ```20px``` w prawo,
-* ustaw czas trwania jednego przesunięcia na dwie sekundy,
-* po zakończeniu każdego przesunięcia wypisz w konsoli tekst "Przesuwanie zakończone".
