@@ -23,25 +23,3 @@ Zajrzyj do pliku ```index.html```. Zapisz do zmiennej elementy menu. Ustaw każd
 
 W pliku **index.html** znajdź formularz o **klasie** ```login```. W pliku **app.js** stwórz funkcję, która będzie reagować na wciśnięcie przycisku ```show-hide-btn```.
 Na początek ustaw event tak, aby po wciśnięciu wypisał w konsoli "działam". Następnie funkcja ma sprawdzać, jakiego typu jest element przechowujący hasło. Jeśli ```password``` &ndash; zmień **type** na ```text```. Jeśli ```text``` &ndash; zmień na ```password```.
-
-
-### Zadanie 5 - dodatkowe
-
-Znajdź w pliku **index.html** element o **klasie** ```running-element```. Następnie napisz dla niego funkcję, wewnątrz której wykonaj następujące czynności:
-* ustaw event ```click``` na elemencie ```running-element```,
-* po kliknięciu w element przesuń **div** (znajdujący się wewnątrz niego) o ```20px``` w prawo,
-* ustaw czas trwania jednego przesunięcia na dwie sekundy,
-* po zakończeniu każdego przesunięcia wypisz w konsoli tekst "Przesuwanie zakończone".
-
-### Zadanie 6  - dodatkowe
-
-Znajdź w pliku **index.html** element o **klasie** ```select```, a następnie napisz dla niego następującą funkcję:
-* po kliknięciu w strzałkę zostaje rozwinięta lista **ul** o **klasie** ```select-body```,
-* po ponownym kliknięciu lista zwija się z powrotem,
-* spróbuj zmodyfikować zadanie tak, aby strzałka wskazywała w przeciwną stronę, gdy oczekuje na zwinięcie.
-
-
-### Zadanie 7 - dodatkowe
-
-Za pomocą funkcji ```each()``` znajdź wszystkie elementy **a**, następnie
-ustaw ich atrybut **href** na adres [CodersLab](www.coderslab.pl).

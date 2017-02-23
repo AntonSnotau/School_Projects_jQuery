@@ -8,14 +8,12 @@ $(function() {
 
   /* Insert Movies to DOM  */
   function insertContent(movies) {
-    $.each(movies, function(indexMovie, movie) {
+    for(var i = 0 ; i < movies.length; i++) {
         var li = $('<li>', {class: "movie"});
-        var h3 = $('<h3>').text(movie.title);
-
+        var h3 = $('<h3>').text(movies[i].title);
         li.append(h3);
-
         movieLists.append(li);
-    });
+    };
   }
 
   /* Load movies and insert them into the DOM

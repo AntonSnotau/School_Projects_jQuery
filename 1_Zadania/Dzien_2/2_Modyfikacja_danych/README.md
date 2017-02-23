@@ -10,9 +10,10 @@ ucz się używać funkcji.
 ## Zadania do samodzielnego wykonania
 
 
-# Zadanie 1 (~ 15min - 20min)
+# Zadanie 1 (~ 15min - 30min)
 
-Pod adresem http://api.coderslab.pl/movies jest przechowywana baza filmów. Twoim zadaniem jest wczytanie ich do pliku **index.html** za pomocą metody ```ajax()```, konkretnie do elementu **ul** o **klasie** ```repertuar```.
+Zainstaluj json-server i uruchom.
+W folderze db znajdziesz plik ```movies.json```. Jest to baza filmów, z której będziemy korzystac. Twoim zadaniem jest wczytanie ich do pliku **index.html** za pomocą metody ```ajax()```, konkretnie do elementu **ul** o **klasie** ```repertuar```.
 
 Przydatne wskazówki:
 * wczytaj bazę filmów i przyjrzyj się w konsoli jak jest skonstruowany json, który dostajesz od serwera
@@ -23,23 +24,17 @@ Przydatne wskazówki:
 # Zadanie 2 (~ 15min - 20min)
 
 Zadanie polega na tym, aby po wpisaniu tytułu i krótkiego opisu do pól formularza o **klasie** ```add_movie``` filmy dodały się do bazy. W tym celu stwórz odpowiednią funkcję w pliku JavaScript np. o nazwie ```addMovie()```. Wewnątrz niej:
-* pozbieraj dane z formularza, ale dopiero po kliknięciu w przycisk. Własność screenings również uwzględnij w tworzonym obiekcie, ale wyślij ją jako pustą tablice ```"screenings":[]```
+* pozbieraj dane z formularza, ale dopiero po kliknięciu w przycisk.
 * wyślij je za pomocą metody ```ajax()``` do bazy,
+* zaktualizuj widok (tak, aby nowy film wczytał się do DOMU)
 
 **Jak pozbierać dane?**
-Musisz skonstruować odpowiednio obiekt. Spójrz na opis api poniżej. Bardzo często w pracy dostaniesz tylko
-opis Api i na jego podstawie będziesz musieć obsłużyć jakieś funkcjonalności.
-Nie przerażaj się - w tym opisie znajdziesz wszystko co potrzeba.
- - co masz wysłać?
- - pod jaki adres?
- - jaką metodą HTTP?
- - jak powinny wyglądać przesyłane dane?
-
+Musisz skonstruować odpowiednio obiekt.
 
 
 # Zadanie 3 (~ 15min - 20min)
 
-Zadanie polega na usunięciu filmu z serwera. W tym celu:
+Zadanie polega na usunięciu filmu z bazy. W tym celu:
 * stwórz odpowiednią funkcję np. ```removeMovie()```,
 * wróć do funkcji z zadania 1 i zmodyfikuj ją tak, aby przy wczytywaniu filmów dodawała również przycisk ```Usuń``` (pamiętaj o ustawieniu mu odpowiedniej klasy),
 * wewnątrz funkcji ```removeMovie()``` ustaw event dla przycisku ```Usuń``` (sprawdź, czy działa),
@@ -58,52 +53,3 @@ Zmodyfikuj film na serwerze. W tym celu:
 5. Pobierz zmienione dane po kliknięciu w przycisk ```Zatwierdź``` i wyślij je za pomocą metody ```ajax()``` do bazy.
 
 Pamiętaj, że musisz odwołać się do konkretnego adresu np. jeżeli chcesz usunąć film o **id=2** wysyłasz żądanie pod adres http://api.coderslab.pl/movies/2. Skąd wziąć **id** filmu? To już wiesz z poprzedniego zadania.
-
-
-## Opis API  &ndash; zasoby
-* GET: http://api.coderslab.pl/movies -> zwraca tablicę z obiektami filmów.
-
-* GET: http://api.coderslab.pl/movies/{id} -> zwraca jeden film + jego seanse. Zwraca **false**, jeśli nie ma takiego filmu.
-
-* POST: http://api.coderslab.pl/movies -> dodaje nowy film do bazy. JSON powinien wyglądać tak:
-```JSON
-{
-  "title": "Foo",
-  "description": "bar",
-  "screenings":[
-    {
-      "screening_date": "Foo screening 1"
-    },
-    {
-      "screening_date": "Foo screening 2"
-    }
-  ]
-}
-```
-* PUT: http://api.coderslab.pl/movies/{id} -> zmienia film. JSON powinien wyglądać tak:
-```JSON
-{  
-   "title": "FOOBAR",
-   "description": "BARFOO",
-   "screenings":[  
-      {  
-         "screening_date": "Foo screening 1"
-      },
-      {  
-         "screening_date": "Foo screening 2"
-      },
-      {  
-         "screening_date": "Foo screening 3"
-      },
-      {  
-         "screening_date": "Foo screening 4"
-      }
-   ]
-}
-```
-Można dowolnie modyfikować liczbę seansów filmu (ale trzeba podać wszystkie &ndash; jak nic nie podamy, to stare seanse są kasowane). Inaczej mówiąc, jeśli dodasz tylko nowy seans, to nadpisze on wszystkie inne. API zwraca seans, jeżeli się udało, ```false``` jeżeli nie.
-
-* DELETE: http://api.coderslab.pl/movies/{id} -> Kasuje film. Zwraca zawsze ```true```.
-
-#Zadanie 5*, dla chętnych
-Przejdź wszystkie wcześniejsze zadania i wczytaj/dodawaj/modyfikuj również seanse dla każdego filmu. Sprawdź, jak wygląda JSON przy wczytywaniu danych.
