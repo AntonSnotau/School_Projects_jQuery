@@ -46,8 +46,18 @@ body {
   display: none;
 }
 
-
 /*Do zadania 4*/
+.histogram {  
+  margin-top: 24px;
+}
+.histogram > div {
+    background-color: orange;
+    width: 24px;
+    height: 12px;
+    margin-bottom: 4px;
+}
+
+/*Do zadania 5*/
 .running-element div {
    margin: 30px;
     position: absolute;
