@@ -25,11 +25,9 @@ Przed przystąpieniem do rozwiązywania zadań przeczytaj poniższe wskazówki
 * 3_Baza
     * Tutaj znajdziesz plik JSON z danymi do bazy danych (potrzebne przy zadaniach z AJAXA).
 
-* 2_Zaqdania_dodatkowe
+* 4_Zaqdania_dodatkowe
     * Tutaj znajdziesz dodatkowe zadania któ©e możesz zrobić.
 
-* 5_Zadania_domowe
-    * Te zadania wykonaj samodzielnie w domu. Będą one sprawdzane przez mentora. Pamiętaj, aby każde zadanie było w funkcji i zwracało wartości opisane w jego tresci. Zadania dodatkowe są dla chętnych i ambitnych. Ty też jesteś, prawda? :). Zadania dodatkowe zrób w miarę możliwości, możesz je dosłać w każdej chwili. Zapytaj mentora do kiedy musisz oddać zadania podstawowe.
 
 Poszczególne zadania rozwiązuj w odpowiednich plikach.
 
