@@ -10,22 +10,17 @@ ucz się używać funkcji.
 ## Zadanie rozwiązywane z wykładowcą
 
 ### Najeżdżanie i zjeżdżanie  (~ 7min - 12min)
- Ustaw event na elemencie **dt**, którego zadaniem jest wyświetlanie w konsoli informacji o elemencie, na który najechaliśmy. Przetestuj różnicę między ```mouseenter```, ```mouseover``` i ```mousemove```.
+ Ustaw event na elemencie **dt**, którego zadaniem jest wyświetlanie w konsoli informacji o elemencie, na który najechaliśmy.
+
+ ### Pobieranie wartości data  (~ 10min - 15min)
+   Znajdź w pliku **index.html** trzy **buttony** w elemencie o **klasie** ```hero-buttons```. Wykonaj następujące czynności:
+ * dla każdego elementu ustaw event ```click```, który po kliknięciu pobierze wartość znajdującą się w atrybucie data-feature i wyświetli ją w konsoli.
 
 -------------------------------------------------------------------------------
 
 ## Zadania do samodzielnego wykonania
 
-### Zadanie 1  (~ 10min - 15min)
-  Znajdź w pliku **index.html** trzy **buttony** w elemencie o **klasie** ```hero-buttons```. Stwórz funkcję, w której wykonaj następujące czynności:
-* ustaw każdy z trzech przycisków pod inną zmienną,
-* dla elementu pierwszego ustaw event ```click```, który po kliknięciu wyświetli w konsoli napis "kliknięto mnie",
-* dla elementu drugiego ustaw event ```click```, który po kliknięciu wyświetli w konsoli napis "kliknięto mnie, ale już drugi raz nie dam się kliknąć",
-* dla trzeciego wywołaj metodę, która odczepi wszystkie eventy z wszystkich przycisków.
-
-Przetestuj działanie Twojej funkcji.
-
-### Zadanie 2 (~ 10min - 15min)
+### Zadanie 1 (~ 10min - 15min)
 
 Znajdź w pliku **index.html** **sekcję** o **klasie** ```superhero-description```, a następnie napisz funkcję, w której:
 1. Ukryj domyślnie wszystkie elementy **dd**.
@@ -33,3 +28,10 @@ Znajdź w pliku **index.html** **sekcję** o **klasie** ```superhero-description
 * rozwijały się, jeśli są ukryte,
 * zwijały się, jeśli są widoczne.
 * do znalezienia najbliższego rodzeństwa danego elementu użyj funkcji .next()
+
+### Zadanie 2  (~ 10min - 12min)
+
+Znajdź w pliku **index.html** element o **klasie** ```shopping```, stwórz odpowiednią funkcję. Wykonaj następujące czynności:
+* Po kliknięciu w **button** ```Dodaj``` &ndash; ustaw mu **klasę** ```added``` oraz pojedynczemu elementowi zawierającemu produkt zmień obramowanie na zielone.
+* Podmień tekst na przycisku na ```Dodano```.
+* Po ponownym kliknięciu zresetuj ustawienia elementu ```cart-item```.

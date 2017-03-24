@@ -24,7 +24,3 @@ Znajdź w pliku **index.html** element o **klasie** ```people```, stwórz odpowi
 * napisz funkcję, która po kliknięciu w przycisk ```Edytuj``` &ndash; umożliwi edycję elementu.
 W trakcie edycji zmień nazwę na przycisku z ```Edytuj``` na ```Zatwierdź```. Po klinięciu w ```Zatwierdź```
 Zakończ edycję.
-
-### Zadanie 2 - dodatkowe
-
-Dodaj przycisk ```Sortuj```, który posortuje wszystkie elementy alfabetycznie.
