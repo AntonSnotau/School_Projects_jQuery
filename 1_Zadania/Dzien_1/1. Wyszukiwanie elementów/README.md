@@ -24,7 +24,7 @@ Wyszukaj element ```nav``` wewnątrz **sekcji** ```links```. Dodaj mu **klasę**
 ### Zadanie 1 (~ 5min - 10min)
 
 Zapoznaj się z plikiem **index.html** oraz odpowiednimi plikami CSS. Dodaj **klasę** ```borderClass``` do każdego elementu
-**li** ( Uwzględnij tylko **sekcję** o **klasie** ```main```). Stwórz nową funkcję, w której wykonasz te czynności.
+**li** ( Uwzględnij tylko **sekcję** o **klasie** ```main```).
 
 ### Zadanie 2 (~ 5min - 10min)
 
@@ -32,12 +32,7 @@ Ustaw każdemu elementowi **li** (tylko te w **sekcji** o **klasie** ```main```)
 * ```colorText```,
 * ```backgroundElement```.
 Znajdziesz je w pliku **style.css** pod odpowiednim komentarzem.
-Łącznie z poprzednią **klasą** ```borderClass```będą to trzy **klasy** ustawione dla każdego **li**. Ustaw także dla tych elementów następujące funkcje:
-* ```fadeOut``` z bardzo wolnym zanikaniem,
-* ```fadeIn``` z bardzo wolnym pojawianiem się.
-
-Stwórz nową funkcję, w której wykonasz te czynności.
-Czy widzisz nadmiarowość w swoim kodzie? Napisz.
+Łącznie z poprzednią **klasą** ```borderClass```będą to trzy **klasy** ustawione dla każdego **li**.
 
 ### Zadanie 3 (~ 5min - 10min)
 
@@ -45,14 +40,38 @@ Za pomocą jQuery wykonaj następujące czynności:
 
 1. Wyszukaj wszystkie linki i ustaw im czerwony kolor za pomocą funkcji ```css()```.
 2. Zmodyfikuj kod tak, aby kolor czerwony miały linki tylko z menu.
-3. Dodaj **klasę** ```redLinks``` w pliku **style.css** (ustaw w niej kolor tekstu na czerwony) i za pomocą ```addClass``` nadaj ją elementom **li** w menu (zmodyfikuj kod z podpunktów 1. i 2.).
+3. Dodaj **klasę** ```redLinks``` w pliku **style.css** (ustaw w niej kolor tekstu na czerwony) i za pomocą ```addClass``` nadaj ją elementom **li** w menu (zmodyfikuj kod z podpunktów 1. i 2 czyli zamień funkcje css() na addClass() ).
 4. Spraw, aby pierwszy element menu miał większy font niż inne. Stwórz odpowiednią **klasę** w pliku **style.css**.
-Stwórz nową funkcję, w której wykonasz te czynności.
 
-### Zadanie 4  (~ 5min - 10min)
+### Zadanie 4  (~ 2min - 3min)
 
-Sprawdź, czy **h1** ma **klasę** ```creepyHeader```.
-1. Jeśli nie ma &ndash; dodaj ją do tego elementu.
-2. Jeśli ma &ndash; wypisz w konsoli, że **nagłówek** ma już taką **klasę**.
+Dodaj do elementu **h1**  **klasę** ```creepyHeader```, a następnie:
+* jego rodzicowi (wyszukaj go za pomocą parent() ) ustaw dowolne obramowanie za pomocą funkcji css() )
+* następnemu elementowi po nim (po h1) dodaj klasę ```crazy```. Sprawdź czy na pewno została dodana.
 
-Stwórz nową funkcję, w której wykonasz te czynności.
+
+### Zadanie 5  (~ 5min - 7min)
+
+Wypisz w konsoli pierwszy, trzeci i ostatni element menu. Użyj odpowiednich funkcji. Dodaj do znalezionych elementów **klasę** ```menuLinks```.
+
+
+### Zadanie 6  (~ 5min - 7min)
+
+Wypisz w konsoli pierwszy, trzeci i ostatni element menu. Użyj odpowiednich funkcji. Dodaj do znalezionych elementów **klasę** ```menuLinks```. Schowaj trzeci element za pomocą funkcji hide().
+
+
+### Zadanie 7  (~ 5min - 7min)
+
+W pliku ```index.html``` znajdziesz sekcję o klasie ```form```. Znajdują się w niej dwa pola ```input```.
+
+Pobierz wartości, które są w nich ustawione i wyświetl je w konsoli.
+
+### Zadanie 8  (~ 5min - 7min)
+
+W pliku ```index.html``` znajdziesz link o id ```codersLink```. Zapisz  jego atrybut href do zmiennej i wypisz w konsoli. Nastepnie podmień go na inny dowolny :)
+
+
+### Zadanie 9  (~ 5min - 7min)
+
+W pliku ```index.html``` znajdziesz sekcję o klasie ```links```. Pobierz atrybut data-hover do zmiennej i wypisz go w konsoli. Spróbuj za pomocą funkcji ```data``` oraz ```attr```.
+Jak widzisz są one źle wpisane w html, spróbuj je podmienić za pomocą funkcji data().
