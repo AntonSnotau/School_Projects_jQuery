@@ -19,7 +19,9 @@ Przydatne wskazówki:
 * wczytaj bazę filmów i przyjrzyj się w konsoli jak jest skonstruowany json, który dostajesz od serwera
 * zapoznaj się z plikiem **index.html** (gdzie dokładnie "wstrzyknąć" filmy?),
 * zapoznaj się z plikiem JavaScript, wstaw pod odpowiednie zmienne: adres URL oraz element **ul**,
-* wykorzystaj wiedzę (i kod) z poprzedniego zadania i wstaw tytuł filmu oraz opis do elementu **ul**.
+* wykorzystaj wiedzę (i kod) z poprzednich zadań i wstaw tytuł filmu oraz opis do elementu **ul li** np.
+    * tytuł filmu jako element ```h3```
+    * opis filmu jako element ```p```
 
 # Zadanie 2 (~ 15min - 20min)
 
@@ -36,10 +38,10 @@ Musisz skonstruować odpowiednio obiekt.
 
 Zadanie polega na usunięciu filmu z bazy. W tym celu:
 * stwórz odpowiednią funkcję np. ```removeMovie()```,
-* wróć do funkcji z zadania 1 i zmodyfikuj ją tak, aby przy wczytywaniu filmów dodawała również przycisk ```Usuń``` (pamiętaj o ustawieniu mu odpowiedniej klasy),
+* wróć do funkcji z zadania 1 (wczytującej dane) i zmodyfikuj ją tak, aby przy wczytywaniu filmów dodawała również przycisk ```Usuń``` (pamiętaj o ustawieniu mu odpowiedniej klasy np. delete),
 * wewnątrz funkcji ```removeMovie()``` ustaw event dla przycisku ```Usuń``` (sprawdź, czy działa),
 * po uruchomieniu eventu wywołaj metodę ```ajax()``` z odpowiednimi ustawieniami do usunięcia określonego filmu,
-* pamiętaj, że musisz odwołać się do konkretnego adresu np. jeżeli chcesz usunąć film o **id=2** wysyłasz żądanie pod adres http://api.coderslab.pl/movies/2.
+* pamiętaj, że musisz odwołać się do konkretnego adresu np. jeżeli chcesz usunąć film o **id=2** wysyłasz żądanie pod adres http://localhost:3000/movies/2.
 
 Skąd wziąć **id** filmu? Każdemu elementowi listy dodaj **id** (do tagu **li**). Weźmiesz je z danych zwróconych przy wczytywaniu filmów. Zmodyfikuj funkcję wczytującą filmy z zadania 1.
 
@@ -49,7 +51,7 @@ Zmodyfikuj film na serwerze. W tym celu:
 1. Stwórz odpowiednią funkcję np. ```updateMovie()```.
 2. Wróć do funkcji z zadania 1 i zmodyfikuj ją tak, aby przy wczytywaniu filmów dodawała również przycisk ```Zmodyfikuj```  (pamiętaj o ustawieniu mu odpowiedniej klasy).
 3. Wewnątrz funkcji ```updateMovie()``` ustaw event dla przycisku ```Zmodyfikuj``` (sprawdź, czy działa).
-4. Przy modyfikacji musisz także wysłać odpowiednie dane pobrane z treści strony. W tym celu wewnątrz eventu obsługującego przycisk ```Zmodyfikuj```napisz kod dodający do elementu **li** atrybut ```contenteditable``` i ostyluj go odpowiednio (białe tło, obramowanie). W trakcie edycji zmień również napis na przycisku z ```Zmodyfikuj``` na ```Zatwierdź``` (pamiętaj o ustawieniu mu odpowiedniej klasy).
+4. Przy modyfikacji musisz także wysłać odpowiednie dane pobrane z treści strony. W tym celu wewnątrz eventu obsługującego przycisk ```Zmodyfikuj```napisz kod dodający do elementów wewnątrz **li** atrybut ```contenteditable``` i ostyluj go odpowiednio (białe tło, obramowanie). W trakcie edycji zmień również napis na przycisku z ```Zmodyfikuj``` na ```Zatwierdź``` (pamiętaj o ustawieniu mu odpowiedniej klasy).
 5. Pobierz zmienione dane po kliknięciu w przycisk ```Zatwierdź``` i wyślij je za pomocą metody ```ajax()``` do bazy.
 
-Pamiętaj, że musisz odwołać się do konkretnego adresu np. jeżeli chcesz usunąć film o **id=2** wysyłasz żądanie pod adres http://api.coderslab.pl/movies/2. Skąd wziąć **id** filmu? To już wiesz z poprzedniego zadania.
+Pamiętaj, że musisz odwołać się do konkretnego adresu np. jeżeli chcesz zmodyfikować film o **id=2** wysyłasz żądanie pod adres http://localhost:3000/movies/2. Skąd wziąć **id** filmu? To już wiesz z poprzedniego zadania.

@@ -20,9 +20,9 @@ $(function() {
   */
   function loadMovies() {
         $.ajax({
-            	url: movieUrl
+            url: movieUrl
         }).done(function(response){
-     		    insertContent(response.results);
+     		insertContent(response.results);
     	 }).fail(function(error) {
            console.log(error);
        })
