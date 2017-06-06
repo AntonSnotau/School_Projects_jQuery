@@ -5,12 +5,10 @@ body {
 }
 
 
-/*Style do zadania 1*/
+
 .hero-buttons {
 }
 
-
-/*Style do zadania 2*/
 dd {
     margin: 0;
     padding: 1em 0;
@@ -31,15 +29,10 @@ dt:nth-last-child(2) { border-bottom: none; }
 
 .hide { display: none;}
 
-
-/*Style do zadania 4*/
-.menu {
-  margin:50px 0;
-}
-
-/*Style do zadania 5*/
-.login {
-  text-align: left;
-  border: 1px solid #4f4f4f;
-  padding: 20px;
+.cart-item {
+  border:1px solid #ccc;
+  padding: 15px;
+  width: 300px;
+  border-radius:5px;
+  margin-bottom: 10px;
 }
