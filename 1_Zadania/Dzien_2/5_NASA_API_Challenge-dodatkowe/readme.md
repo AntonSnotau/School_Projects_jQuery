@@ -1,3 +1,5 @@
+<img alt="Logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
+
 # NASA API Challenge - dodatkowe
 
 > To zadanie jest dla chętnych. Wykonaj je jeśli masz ukończone wcześniejsze zadania. Jeśli na zajęciach brakło czasu możesz je wykonać w domu.
