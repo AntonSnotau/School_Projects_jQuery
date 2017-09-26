@@ -10,4 +10,4 @@ Zajrzyj na stronę https://www.metaweather.com/api/.
 
 Znajdziesz tam opis API pogodowego. Wczytaj za pomocą Ajax, aktualną temperaturę w twoim mieście
 do elementu ```span``` o klasie ```weather``` w pliku ```index.html```.
-Wczytaj również ciśnienie i prędkość wiatru do elementu ```p``` o klasie ```description```. Wczytaj także obrazek jako element ```img```.
+Wczytaj również ciśnienie, prędkość i kierynek wiatru do elementu ```p``` o klasie ```description```.
